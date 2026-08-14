@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    int n1 ,n2  , div ;
+    printf("enter any two no ");
+    scanf("%d %d",&n1 ,&n2);
+    //sum
+    int sum = n1 + n2 ;
+    //difference
+    int diff = n1 - n2 ;
+    // multiplication
+    int m = n1*n2 ;
+    // division
+    if( n2 > 0){
+        div =n1/n2 ;
+    } 
+    
+    //output
+    printf( " sum = %d , difference = %d , multiplication = %d , division = %d\n", sum , diff , m , div );
+
+    
+    return 0;
+
+}
