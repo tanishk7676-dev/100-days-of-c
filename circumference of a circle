@@ -1,0 +1,10 @@
+#include <stdio.h>
+#define PI 3.14159 
+int main(){
+    float r , circumference ;
+    printf("enter the Radius of circle\n");
+    scanf("%f",&r);
+    circumference = 2*PI*r ;
+    printf( "The circumference of circle of Radius %4f is %4f", r ,circumference );
+    return 0;
+}   
